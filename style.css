@@ -64,14 +64,14 @@ a{
     text-decoration: none;
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (min-width: 420px) {
     #insta{
-    width: 300px;
-    height: 50px;
+    max-width: 300px;
+    min-height: 50px;
     }
     #whats{
-    width: 300px;
-    height: 50px;
+    max-width: 300px;
+    min-height: 50px;
     }
     #copy{
     padding-top: 20px;
